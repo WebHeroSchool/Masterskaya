@@ -18,7 +18,7 @@ body {
   margin-right: 63%;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px pt_serif,arial,helvetica,sans-serif;
+  font: bold 24px/31px "pt_serif",arial,helvetica,sans-serif;
   width: 190px;
   height: 35px;
   position: relative;
@@ -27,7 +27,7 @@ body {
 .logo__circle {
   width: 28px;
   height: 28px;
-  
+
 }
 
 
@@ -46,10 +46,12 @@ body {
     top:56%;
     background:#C8DBFB;
     border-radius:50%;
+    opacity: .7;
   }
 
   .logo__circle_color_dark-blue {
   background:#0056EC;
+  opacity: .7;
 }
 
 .menu {
