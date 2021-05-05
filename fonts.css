@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'pt_serifbold';
+    src: url('fonts') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
