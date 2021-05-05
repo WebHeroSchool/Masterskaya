@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'roboto';
+    font-family: 'roboto_medium';
     src: url('fonts/roboto-medium-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
@@ -16,7 +16,7 @@
 
 
 @font-face {
-    font-family: 'roboto';
+    font-family: 'roboto_regular';
     src: url('fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: 400;
     font-style: normal;
