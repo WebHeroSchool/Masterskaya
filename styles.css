@@ -26,7 +26,7 @@ body {
 }
 
 .main {
- padding: 0 57% 181px 0;
+ padding: 0 57% 200px 0;
  background: top right no-repeat url(img/mainImg.svg);
  width: 700px;
  height: 507px;
@@ -35,6 +35,7 @@ body {
 
 .main__title {
  margin: 0 0 40px 0;
+ padding-right: 60%;
  padding-top: 100px;
  font: 700 66px/87px 'pt_serifbold';
  width: 567px;
@@ -104,7 +105,9 @@ body {
 
 .menu {
   display: flex;
-  align-items: center;
+  justify content: space-between;
+  padding: 40px 0;
+
 }
 
 .menu__item {
@@ -121,6 +124,7 @@ body {
   margin-right: 0;
   width: 85px;
   height: 22px;
+  padding-right: 200px;
 }
 
 .menu__item_active::after {
