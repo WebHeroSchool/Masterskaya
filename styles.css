@@ -30,8 +30,7 @@ body {
 .main {
  padding: 0 56% 191px 0;
  background: top right no-repeat url(img/mainImg.svg);
- width: 670px;
- height: 480px;
+ background-size: 50.5%;
 
 }
 
