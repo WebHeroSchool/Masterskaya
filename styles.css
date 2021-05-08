@@ -31,17 +31,16 @@ body {
 .main {
   padding: 0 57% 200px 0;
  background: top right no-repeat url(img/mainImg.svg);
- width: 700px;
- height: 507px;
+ width: 670px;
+ height: 480px;
 
 }
 
 .main__title {
  margin: 0 0 40px 0;
- padding-right: 60%;
  padding-top: 100px;
- font: 700 66px/87px 'pt_serifbold';
- width: 567px;
+ font: 700 73px/87px 'pt_serifbold';
+ width: 590px;
  height: 255px;
 
 }
@@ -59,7 +58,7 @@ body {
  font: 500 18px/21px 'roboto_medium';
  color: #fff;
  background: #0056EC;
- padding: 18px 21px;
+ padding: 21px 27px;
  text-decoration: none;
  border-radius: 4px;
  transition: opacity .5s;
@@ -126,7 +125,7 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 0;
+  margin-right: 4;
   width: 85px;
   height: 22px;
 
