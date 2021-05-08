@@ -1,10 +1,12 @@
 body {
   margin: 0;
+
 }
 
 .wrapper {
   margin: auto;
   width: 80%;
+
 }
 
 .header {
@@ -12,6 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
+
 }
 
 .logo {
@@ -26,12 +29,12 @@ body {
 }
 
 .main {
- padding: 0 57% 200px 0;
+  padding: 0 57% 200px 0;
  background: top right no-repeat url(img/mainImg.svg);
  width: 700px;
  height: 507px;
-}
 
+}
 
 .main__title {
  margin: 0 0 40px 0;
@@ -40,6 +43,7 @@ body {
  font: 700 66px/87px 'pt_serifbold';
  width: 567px;
  height: 255px;
+
 }
 
 .main__subtitle {
@@ -47,6 +51,7 @@ body {
  font: 400 22px/26px 'roboto_regular';
  width: 455px;
  height: 52px;
+
 }
 
 .main__button {
@@ -71,13 +76,11 @@ body {
 
 }
 
-
 .logo__circle {
   width: 28px;
   height: 28px;
 
 }
-
 
 .logo__circle {
   position: absolute;
@@ -96,17 +99,19 @@ body {
     background:#C8DBFB;
     border-radius:50%;
     opacity: .7;
+
   }
 
   .logo__circle_color_dark-blue {
   background:#0056EC;
   opacity: .7;
+
 }
 
 .menu {
   display: flex;
   justify content: space-between;
-  padding: 40px 0;
+  padding: 47px 4px;
 
 }
 
@@ -140,6 +145,7 @@ body {
 
 .menu__item:hover {
   opacity: 0.5;
+
 }
 
 .menu__item:after {
@@ -152,6 +158,7 @@ body {
   background: #0056EC;
   opacity: 0;
   transition: opacity .5s, width .5s;
+
 }
 
 .menu__item:hover:after, .menu__item_active::after {
