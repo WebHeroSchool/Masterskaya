@@ -13,13 +13,12 @@ body {
 
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 125px;
 
 }
 
 .logo {
   display:  inline-block;
-  margin-right: 63%;
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px 'pt_serifbold',Arial, Helvetica, sans-serif;
@@ -29,7 +28,7 @@ body {
 }
 
 .main {
-  padding: 0 57% 200px 0;
+  padding: 0 56% 191px 0;
  background: top right no-repeat url(img/mainImg.svg);
  width: 670px;
  height: 480px;
@@ -38,7 +37,7 @@ body {
 
 .main__title {
  margin: 0 0 40px 0;
- padding-top: 100px;
+ padding-top: 76px;
  font: 700 66px/87px 'pt_serifbold',Arial, Helvetica, sans-serif;
  width: 590px;
  height: 255px;
@@ -110,14 +109,14 @@ body {
 .menu {
   display: flex;
   justify content: space-between;
-  padding: 47px 4px;
+  padding: 47px 0px;
 
 }
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
-  font: 500 18px/21px 'roboto_medium';
+  margin-right: 25px;
+  font: 500 18px/22px 'roboto_medium';
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
@@ -125,10 +124,9 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 4;
   width: 85px;
   height: 22px;
-
+  margin-right: 4px;
 }
 
 .menu__item_active::after {
