@@ -233,54 +233,19 @@ body {
   margin-bottom: 24px;
 }
 
-
-
-   .menu__item:last-child {
+ .menu__item:last-child {
      width: 325px;
      padding-top: 0;
      height: 41px;
      margin-bottom: 7px;
  }
 
-   .menu__item_active::after {
-     position: absolute;
-     left: 0;
-     display: block;
-     content: '';
-     width: 100%;
-     height: 3px;
-     background: #0056EC;
+ .menu__item:hover:after, .menu__item_active::after {
+  opacity: 0;
+  width: 0;
 
-   }
-
-   .menu__item:hover {
-     opacity: 0.5;
-
-   }
-
-   .menu__item:after {
-     position: absolute;
-     left: 0;
-     display: block;
-     content: '';
-     width: 0;
-     height: 3px;
-     background: #0056EC;
-     opacity: 0;
-     transition: opacity .5s, width .5s;
-
-   }
-
-   .menu__item:hover:after, .menu__item_active::after {
-    opacity: 1;
-    width: 100%;
-
-   }
-
-
-
-
-   /* скрываем чекбокс */
+ }
+      /* скрываем чекбокс */
 #menu__toggle {
   opacity: 0;
 }
