@@ -292,7 +292,9 @@ body {
 
 .main__button {
     font: 500 14px/16px 'roboto_medium',Arial, Helvetica, sans-serif;
-    padding:15px 21px;
+    padding-top: 16px;
+    width: 168px;
+    height: 10px;
 
    }
 
