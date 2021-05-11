@@ -272,15 +272,16 @@ body {
   }
 
   .main__title {
-    margin-bottom: 52px;
+    margin-bottom: 54px;
     font: 700 30px/39px 'pt_serifbold',Arial, Helvetica, sans-serif;
     width: 267px;
     height: 96px;
-    padding-left: 35px;
+    padding-left: 31px;
+    margin-top: 60px;
   }
 
 .main__subtitle {
-  margin-bottom: 25px;
+  margin-bottom: 23px;
   font: 500 16px/18px 'roboto_medium',Arial, Helvetica, sans-serif;
   margin-right: 57px;
   width: 257px;
