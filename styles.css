@@ -273,10 +273,6 @@ body {
    padding-top: 3px;
  }
 
- .logo__circle {
-   margin-top: 3px;
-   margin-left:-4px;
- }
 
   .header{
     margin-bottom: 11px;
@@ -301,7 +297,7 @@ body {
   }
 
 .main__subtitle {
-  margin-bottom: 23px;
+  margin-bottom: 28px;
   font: 500 16px/18px 'roboto_medium',Arial, Helvetica, sans-serif;
   margin-right: 57px;
   width: 257px;
@@ -312,9 +308,9 @@ body {
 
 .main__button {
     font: 500 14px/16px 'roboto_medium',Arial, Helvetica, sans-serif;
-    padding-top: 16px;
+    padding-top: 18px;
     width: 168px;
-    height: 10px;
+    height: 7px;
 
    }
 
@@ -335,16 +331,17 @@ body {
   width: 0;
 
  }
-
+      /* скрываем чекбокс */
 #menu__toggle {
   opacity: 0;
 }
 
+/* стилизуем кнопку */
 .menu__btn {
-  display: flex;
-  align-items: center;
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
   position: fixed;
-  top: 27px;
+  top: 28px;
   right:24px;
   width: 26px;
   height: 26px;
@@ -352,6 +349,7 @@ body {
   z-index: 1;
 }
 
+/* добавляем "гамбургер" */
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -373,6 +371,7 @@ body {
 
 }
 
+/* контейнер меню */
 .menu__box {
   display: block;
   position: fixed;
@@ -387,12 +386,12 @@ body {
 
 }
 
+/* элементы меню */
 .menu__item {
   display: block;
   padding: 12px 24px;
   color: #000;
   font: 500 30px/35px 'roboto_medium',Arial,Helvetica,Sans-serif;
-  animation:flash 5s infinite;
 
   }
 
@@ -415,4 +414,4 @@ body {
     left: 0;
   }
 
-    }
+}
