@@ -55,10 +55,13 @@ body {
  font: 500 18px/21px 'roboto_medium',Arial, Helvetica, sans-serif;
  color: #fff;
  background: #0056EC;
- padding: 21px 29px;
+ padding: 20px 25px;
+ height: 17px;
+ width: 223px;
  text-decoration: none;
  border-radius: 4px;
  transition: opacity .5s;
+ margin-left: 2px;
 
 }
 
@@ -80,8 +83,8 @@ body {
 
 .logo__circle {
   position: absolute;
-  left: 0;
-  top: 50%;
+  left: 4px;
+  top: 43%;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
@@ -90,8 +93,8 @@ body {
 }
 
 .logo__circle_color_blue {
-    left:8px;
-    top:56%;
+    left:13px;
+    top:53%;
     background:#C8DBFB;
     border-radius:50%;
     opacity: .7;
@@ -215,9 +218,10 @@ body {
 
   .main__button{
   font: 500 14px/16px 'roboto_medium',arial,helvetica,sans-serif;
-  padding-top: 9px;
-  padding-left: 14px;
-  padding-right: 25px;
+  padding-left: 17px;
+  margin-top: -4px;
+  width: 168px;
+  height: 10px;
  }
 
 }
@@ -229,11 +233,23 @@ body {
 
   }
 
-  .main__button{
-  padding-left: 18px;
-  padding-right: 24px;
-  }
+.main__button{
+  padding-left: 15px;
+  width: 168px;
+ }
+
+.logo__circle{
+  margin-left:-4px;
+  margin-top: 3px;
+
+ }
+
+.menu__item_services{
+  margin-left: 3px;
 }
+
+}
+
 
 @media (max-width:768px) {
 
@@ -257,6 +273,10 @@ body {
    padding-top: 3px;
  }
 
+ .logo__circle {
+   margin-top: 3px;
+   margin-left:-4px;
+ }
 
   .header{
     margin-bottom: 11px;
@@ -315,17 +335,16 @@ body {
   width: 0;
 
  }
-      /* скрываем чекбокс */
+
 #menu__toggle {
   opacity: 0;
 }
 
-/* стилизуем кнопку */
 .menu__btn {
-  display: flex; /* используем flex для центрирования содержимого */
-  align-items: center;  /* центрируем содержимое кнопки */
+  display: flex;
+  align-items: center;
   position: fixed;
-  top: 30px;
+  top: 27px;
   right:24px;
   width: 26px;
   height: 26px;
@@ -333,14 +352,13 @@ body {
   z-index: 1;
 }
 
-/* добавляем "гамбургер" */
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
   display: block;
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: #0056EC;
 }
 
@@ -355,7 +373,6 @@ body {
 
 }
 
-/* контейнер меню */
 .menu__box {
   display: block;
   position: fixed;
@@ -370,12 +387,12 @@ body {
 
 }
 
-/* элементы меню */
 .menu__item {
   display: block;
   padding: 12px 24px;
   color: #000;
   font: 500 30px/35px 'roboto_medium',Arial,Helvetica,Sans-serif;
+  animation:flash 5s infinite;
 
   }
 
@@ -398,4 +415,4 @@ body {
     left: 0;
   }
 
-}
+    }
