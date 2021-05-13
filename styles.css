@@ -19,7 +19,7 @@ body {
 .logo {
   display:  inline-block;
   padding: 40px 0;
-  padding-left: 44px;
+  padding-left: 48px;
   font: bold 24px/31px 'pt_serifbold',Arial, Helvetica, sans-serif;
   width: 190px;
   height: 35px;
@@ -38,7 +38,7 @@ body {
  padding-top: 76px;
  font: 700 66px/87px 'pt_serifbold',Arial, Helvetica, sans-serif;
  width: 590px;
- height: 255px;
+
 
 }
 
@@ -47,6 +47,7 @@ body {
  font: 400 22px/26px 'roboto_regular',Arial, Helvetica, sans-serif;
  width: 455px;
  height: 52px;
+ margin-bottom: 36px;
 
 }
 
@@ -87,7 +88,7 @@ body {
 .logo__circle {
   position: absolute;
   left: 4px;
-  top: 43%;
+  top: 46%;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
@@ -131,7 +132,7 @@ body {
 .menu__item:last-child {
   width: 85px;
   height: 22px;
-  margin-right: 4px;
+  margin-right: 6px;
 }
 
 .menu__item_active::after {
@@ -202,8 +203,13 @@ body {
   }
 
   .logo{
-    margin-right: 45%;
+    padding-left: 45px;
 
+  }
+
+  .logo__circle{
+    top:46%;
+    left: 2px;
   }
 
   .menu__item{
@@ -225,7 +231,7 @@ body {
   .main__title{
     font: 700 50px/66px 'pt_serifbold',arial,helvetica,sans-serif;
     padding-top: 13px;
-    margin-bottom: -16px;
+    margin-bottom:41px;
 
   }
 
@@ -238,29 +244,42 @@ body {
 
   .main__button{
   font: 500 14px/16px 'roboto_medium',arial,helvetica,sans-serif;
-  padding-left: 17px;
-  margin-top: -4px;
+  padding-left: 14px;
   width: 168px;
-  height: 10px;
+  height: 6px;
+  padding-top: 15px;
  }
+
+ .menu__item_start{
+   margin-right: 28px;
+ }
+
+ .menu__item_services{
+   width:47px;
+   margin-right: 29px;
+  }
+
+  .menu__item_about{
+    margin-right: 24px;
+  }
 
 }
 
 @media (max-width:1025px) {
 
-  .wrapper{
+.wrapper{
     width:91%;
 
   }
 
 .main__button{
-  padding-left: 15px;
+  padding: 15px 24px 19px 17px;
+  margin-left: 0px;
 
  }
 
-.logo__circle{
-  margin-left:-4px;
-  margin-top: 3px;
+ .logo{
+   padding-left: 44px;
 
  }
 
@@ -269,17 +288,18 @@ body {
 }
 
 .menu__item:last-child{
-margin-right: -2px;
+margin-right: 1px;
 }
 
 .menu__item_services{
   width: 51px;
+ }
+
+.main__subtitle{
+  margin-bottom: 31px;
 }
 
-
-
 }
-
 
 @media (max-width:768px) {
 
@@ -327,7 +347,7 @@ margin-right: -2px;
   }
 
 .main__subtitle {
-  margin-bottom: 28px;
+  margin-bottom: 24px;
   font: 500 16px/18px 'roboto_medium',Arial, Helvetica, sans-serif;
   margin-right: 57px;
   width: 257px;
@@ -338,7 +358,7 @@ margin-right: -2px;
 
 .main__button {
     font: 500 14px/16px 'roboto_medium',Arial, Helvetica, sans-serif;
-    padding-top: 18px;
+    padding-top: 17px;
     width: 168px;
     height: 7px;
 
