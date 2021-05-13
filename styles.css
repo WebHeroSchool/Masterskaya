@@ -207,11 +207,6 @@ body {
 
   }
 
-  .logo__circle{
-    top:46%;
-    left: 2px;
-  }
-
   .menu__item{
     padding-top: 5px;
     font: 500 14px/16px 'roboto_medium',arial,helvetica,sans-serif;
