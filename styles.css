@@ -35,7 +35,7 @@ body {
 
 .main__title {
  margin: 0 0 40px 0;
- padding-top: 76px;
+ padding-top: 74px;
  font: 700 66px/87px 'pt_serifbold',Arial, Helvetica, sans-serif;
  width: 590px;
 
@@ -47,7 +47,7 @@ body {
  font: 400 22px/26px 'roboto_regular',Arial, Helvetica, sans-serif;
  width: 455px;
  height: 52px;
- margin-bottom: 36px;
+ margin-bottom: 38px;
 
 }
 
@@ -63,6 +63,7 @@ body {
  border-radius: 4px;
  transition: opacity .5s;
  margin-left: 2px;
+ animation:puls 5s ease  infinite;
 
 }
 
@@ -125,7 +126,7 @@ body {
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
-  animation:anime 8s ease-in-out 5s infinite;
+  animation:anime 5s ease  infinite;
 
 }
 
@@ -176,15 +177,41 @@ body {
 
 @keyframes anime{
 
-  0% {
-      transform:move;
-
-
+  0%{
+    transform:scale(1);
+    color:black;
+    opacity:0s;
   }
 
+ 50% {
+   transform:scale(0.8);
+   color:green;
+   opacity:0.5s;
+ }
+
   100% {
-    transform:move;
-    transition-duration: 5s
+    transform:scale(1);
+    color:black;
+    opacity:1s;
+
+  }
+}
+
+@keyframes puls{
+
+  0%{
+    transform:scale(1);
+    opacity:0s;
+  }
+
+ 50% {
+   transform:scale(0.9);
+   opacity:0.5s;
+ }
+
+  100% {
+    transform:scale(1);
+    opacity:1s;
 
   }
 }
@@ -234,7 +261,7 @@ body {
   .main__subtitle{
     font: 500 18px/21px 'roboto_regular',arial,helvetica,sans-serif;
     padding-right: 20px;
-    margin-bottom: 29px;
+    margin-bottom: 30px;
     width: 367px;
  }
 
@@ -437,6 +464,7 @@ font:500 14px/16px 'roboto_medium',helvetica,arial,san-serif;
 .menu__item {
   position: relative;
   margin-bottom: 24px;
+  animation: none;
 }
 
  .menu__item:last-child {
@@ -467,6 +495,7 @@ font:500 14px/16px 'roboto_medium',helvetica,arial,san-serif;
   height: 26px;
   cursor: pointer;
   z-index: 1;
+  animation: flash 3s ease infinite;
 }
 
 /* добавляем "гамбургер" */
@@ -478,7 +507,7 @@ font:500 14px/16px 'roboto_medium',helvetica,arial,san-serif;
   width: 100%;
   height: 3px;
   background-color: #0056EC;
-  animation:anime 8s ease-in-out 5s infinite;
+
 }
 
 .menu__btn > span::before {
