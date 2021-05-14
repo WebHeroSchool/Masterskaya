@@ -344,6 +344,30 @@ font:500 14px/16px 'roboto_medium',helvetica,arial,san-serif;
 
 }
 
+@media(max-width:593px) {
+
+  .wrapper{
+  width: 94%;
+  }
+
+  .main {
+    top:40%;
+  }
+
+  .main__title {
+
+  width:220px;
+  font:700 24px/24px 'pt_serifbold',helvetica,arial,san-serif;
+  }
+
+  .main__subtitle{
+  width: 180px;
+  font:500 9px/13px 'roboto_medium',helvetica,arial,san-serif;
+  }
+
+}
+
+
 
 @media (max-width:376px) {
 
@@ -459,12 +483,12 @@ font:500 14px/16px 'roboto_medium',helvetica,arial,san-serif;
 
 .menu__btn > span::before {
   content: '';
-  top: -7px;
+  top: -8px;
 }
 
 .menu__btn > span::after {
   content: '';
-  top: 8px;
+  top: 7px;
 
 }
 
