@@ -112,7 +112,7 @@ body {
   animation: anime 5s ease infinite;
 }
 
-.menu__item: last-child {
+.menu__item:last-child {
   width: 85px;
   height: 22px;
   margin-right: 6px;
@@ -290,12 +290,12 @@ body {
 
   .main__title {
     width: 380px;
-    font: 700 45px/55px 'pt_serifbold', helvetica, arial, san-serif;
+    font: 700 45px/55px 'pt_serifbold', helvetica, arial, sans-serif;
   }
 
   .main__subtitle {
     width: 270px;
-    font: 500 14px/16px 'roboto_medium', helvetica, arial, san-serif;
+    font: 500 14px/16px 'roboto_medium', helvetica, arial, sans-serif;
   }
 }
 
