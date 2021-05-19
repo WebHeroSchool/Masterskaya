@@ -139,7 +139,7 @@ body {
   transition: opacity 0.5s, width 0.5s;
 }
 
-.menu__item:hover:after
+.menu__item:hover::after,
 .menu__item_active::after {
   opacity: 1;
   width: 100%;
@@ -370,7 +370,8 @@ body {
     margin-bottom: 7px;
   }
 
-  .menu__item:hover:after, .menu__item_active::after {
+  .menu__item:hover::after,
+  .menu__item_active::after {
     opacity: 0;
     width: 0;
   }
