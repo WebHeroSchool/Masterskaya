@@ -470,6 +470,7 @@ body {
   .main__button {
     margin-right: 40px;
   }
+}
 
 @media (max-width: 540px) {
   .main__title {
@@ -479,6 +480,7 @@ body {
   .main__subtitle {
     padding-left: 80px;
   }
+}
 
 @media (max-width: 523px) {
   .main__title {
@@ -488,6 +490,7 @@ body {
   .main__subtitle {
     padding-left: 60px;
   }
+}
 
 @media (max-width: 454px) {
   .main__title {
@@ -497,6 +500,7 @@ body {
   .main__subtitle {
     padding-left: 50px;
   }
+}
 
 @media (max-width: 376px) {
   .wrapper {
